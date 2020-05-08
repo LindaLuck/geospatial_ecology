@@ -10,7 +10,7 @@ https://www.danielgm.net/cc/
 
 ---
 ### Background and objective
-The objective is to apply the skills obtained in Labs 9 and 10 in an ecological context. In the previous Labs we were looking at a likely familiar loation - the Boab court at CDU Casuarina campus. Here we will align three scans of the Litchfield site you have seen in the lectures and coregister them using the ICP algorithm.
+The objective is to apply the skills obtained in Labs 9 and 10 in an ecological context. In the previous Labs we were looking at a likely familiar location - the Boab court at CDU Casuarina campus. Here we will align three scans of the Litchfield site you have seen in the lectures and register them using the ICP algorithm.
 
 
 ![Figure 1.](screenshots/Litchie.jpg)
@@ -48,7 +48,7 @@ Working with LiDAR data, different settings will be useful for different purpose
 
 ![Figure 4.](screenshots/Termite_mound.png)
 
-Here is a photo taken during a repeat scan from the same postition. At this stage only a small piece of charcoaled timber remains of this large tree. After another fire there will likely be no visible evidence of a tree having been there.
+Here is a photo taken during a repeat scan from the same position. At this stage only a small piece of charcoaled timber remains of this large tree. After another fire there will likely be no visible evidence of a tree having been there.
 
 ![Figure 5.](screenshots/Termite_mound2.jpg)
 
@@ -75,18 +75,18 @@ As these point clouds are not georeferenced, CloudCompare will overlap the files
 These settings will allow you to move the point cloud along the x/y-axes and rotate it along the z-axis.
 
 **5. Align point clouds.**
-   * Use your **secondady** mouse button to move and your **primary** mouse button to rotate
+   * Use your **secondary** mouse button to move and your **primary** mouse button to rotate
    * Click the green tick in the Translate/ Rotate tool to save changes
    * If necessary, change viewing angle and repeat process for further adjustment
 
 ![Figure 8.](screenshots/Aligned.png)
 
-You can see the impact of trees swaying in breezy conditions and sight differences in scanning angles. When scanning wooded areas it's best to scan on a windstill day or time of day if possible. 
-Perfect alignment is difficult using my manually translating and rotating. Lets import our final point cloud so we can fix those imperfections.
+You can see the impact of trees swaying in breezy conditions and sight differences in scanning angles. When scanning wooded areas, it's best to scan on a wind still day or time of day if possible. 
+Perfect alignment is difficult using my manually translating and rotating. Let’s import our final point cloud so we can fix those imperfections.
 
 **6. Import and align Scan 27.**
   * Make sure you select the point cloud you want to move/ rotate in the top left panel
-  * Get yourself a cuppa if you feel frustation levels are rising
+  * Get yourself a cuppa if you feel frustration levels are rising
 
 ![Figure 9.](screenshots/Aligned2.png)
 
