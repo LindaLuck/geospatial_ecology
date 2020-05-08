@@ -35,10 +35,9 @@ Please see last week's lab here: [Lab 10](https://github.com/geospatialeco/GEARS
 ![Figure 2.](screenshots/Display_settings.png)
 
 Notice how RGB works better for low points. As tree foliage sways in the wind between acquisition of the RGB image and the point cloud we often get a beautiful sky blue assigned to our tree tops.
- 
 
 **2. Explore Display settings.** 
-  * Toggle the ELD filter *(Display -> Shaders & Filters -> EDL filter)*
+  * Toggle the EDL filter *(Display -> Shaders & Filters -> EDL filter)*
   * Adjust point size (hover mouse in top left corner of the screen to show menu)
 
 ![Figure 3.](screenshots/Default_point_size.png)
@@ -55,7 +54,6 @@ Here is a photo taken during a repeat scan from the same postition. At this stag
 
 Consecutive LiDAR scans can be useful for quantifying change over time in wooded systems. In this example we can record loss of large trees; other applications include quantification of tree growth or the impact of fire events on the understory.
 
-
 **3. Import Scan 26.**
    * Select point cloud in top left panel
    * Change colour to height ramp *(Edit -> Colours -> Height ramp)*
@@ -65,7 +63,6 @@ Consecutive LiDAR scans can be useful for quantifying change over time in wooded
 
 For the remainder of this lab I recommend using a height ramp to display the point clouds.
 As these point clouds are not georeferenced, CloudCompare will overlap the files. As in Lab 10 we will move and rotate them to align.
-
 
 **4. Open the Translate and Rotate tool.**
    * Select Scan 26
@@ -77,7 +74,6 @@ As these point clouds are not georeferenced, CloudCompare will overlap the files
 
 These settings will allow you to move the point cloud along the x/y-axes and rotate it along the z-axis.
 
-
 **5. Align point clouds.**
    * Use your **secondady** mouse button to move and your **primary** mouse button to rotate
    * Click the green tick in the Translate/ Rotate tool to save changes
@@ -87,7 +83,6 @@ These settings will allow you to move the point cloud along the x/y-axes and rot
 
 You can see the impact of trees swaying in breezy conditions and sight differences in scanning angles. When scanning wooded areas it's best to scan on a windstill day or time of day if possible. 
 Perfect alignment is difficult using my manually translating and rotating. Lets import our final point cloud so we can fix those imperfections.
-
 
 **6. Import and align Scan 27.**
   * Make sure you select the point cloud you want to move/ rotate in the top left panel
