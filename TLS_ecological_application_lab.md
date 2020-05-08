@@ -118,6 +118,6 @@ Congratulations, your data is now ready for further analysis.
 
 ### Thank you
 
-I hope you found this tutorial useful.
+I hope you found this lab useful.
 
 #### Cheers, Linda Luck
