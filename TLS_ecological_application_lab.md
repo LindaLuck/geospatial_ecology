@@ -35,7 +35,7 @@ Please see last week's lab here: [Lab 10](https://github.com/geospatialeco/GEARS
 ![Figure 2.](screenshots/Display_settings.png)
 
 Notice how RGB works better for low points. As tree foliage sways in the wind between acquisition of the RGB image and the point cloud we often get a beautiful sky blue assigned to our tree tops.
-
+ 
 
 **2. Explore Display settings.** 
   * Toggle the ELD filter *(Display -> Shaders & Filters -> EDL filter)*
