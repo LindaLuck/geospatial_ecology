@@ -2,10 +2,12 @@
 
 ## Ecological application of TLS
 
-### Prerequisits
+### Prerequisites
+---
 Completion of this lab exercise requires use of the CloudCompare software package. CloudCompare is a powerful package for visualising and processing point-clouds, and best of all is open-access. You can download the version to match your operating system here:
 https://www.danielgm.net/cc/
 
+---
 ### Background and objective
 The objective is to use the skills obtained in Labs 9 and 10 in a real life example. In these Labs you were looking at a likely familiar loation - Boab court at CDU Casuarina campus. In this Lab you have three scans of the field site in Litchfield NP you have seen in the Introduction to LiDAR lecture. 
 In this Lab we will align and ***co-register????*** the individual point clouds to produce a single point cloud.
