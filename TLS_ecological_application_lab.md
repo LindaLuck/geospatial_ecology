@@ -48,7 +48,7 @@ Working with LiDAR data, different settings will be useful for different purpose
 
 ![Figure 4.](screenshots/Termite_mound.png)
 
-Here is a photo taken during a repeat scan from the same position. At this stage only a small piece of charcoaled timber remains of this large tree. After another fire there will likely be no visible evidence of a tree having been there.
+Here is a photo taken this year during a repeat scan from the same position. At this stage only a small piece of charcoaled timber remains of this large tree. After another fire there will likely be no visible evidence of a tree having been there.
 
 ![Figure 5.](screenshots/Termite_mound2.jpg)
 
