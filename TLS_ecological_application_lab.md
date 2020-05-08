@@ -12,7 +12,7 @@ https://www.danielgm.net/cc/
 The objective is to use the skills obtained in Labs 9 and 10 in a real life example. In these Labs you were looking at a likely familiar loation - Boab court at CDU Casuarina campus. In this Lab you have three scans of the field site in Litchfield NP you have seen in the Introduction to LiDAR lecture. 
 In this Lab we will align and ***co-register????*** the individual point clouds to produce a single point cloud.
 
-![Figure 1.](screenshots/Litchie.png)
+![Figure 1.](screenshots/Litchie.jpg)
 
 ---
 ## Aligning individual scans
