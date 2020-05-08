@@ -5,6 +5,7 @@
 ### Prerequisites
 ---
 Completion of this lab exercise requires use of the CloudCompare software package. CloudCompare is a powerful package for visualising and processing point-clouds, and best of all is open-access. You can download the version to match your operating system here:
+
 https://www.danielgm.net/cc/
 
 ---
@@ -29,32 +30,36 @@ Please see last week's lab here: [Lab 10](https://github.com/geospatialeco/GEARS
 
 ## Ecological application
 **1. Import Scan 17.**
-  * Inspect the cloud
+   * Inspect the cloud
 
 ![Figure 2.](screenshots/Display_settings.png)
 
 Notice how RGB works better for low points. As tree foliage sways in the wind between acquisition of the RGB image and the point cloud we often get a beautiful sky blue assigned to our tree tops.
 
+
 **2. Explore Display settings.** 
   * Toggle the ELD filter *(Display -> Shaders & Filters -> EDL filter)*
   * Adjust point size (hover mouse in top left corner of the screen to show menu)
 
-![Figure 3.](screenshots/Point_size.png)
+![Figure 3.](screenshots/Default_point_size.png)
 
 Working with LiDAR data, different settings will be useful for different purposes. During this prac you can adjust display settings to your personal preference.
 
-Fun fact: Next to the scan point in the centre you will see a termite mound built up on a tree trunk. After this scan was taken large areas of Litchfield NP were subject to bushfires during the 2019 dry season. 
+**Fun fact:** Next to the scan point in the centre you will see a termite mound built up on a tree trunk. After this scan was taken large areas of Litchfield NP were subject to bushfires during the 2019 dry season. 
+
 ![Figure 4.](screenshots/Termite_mound.png)
 
-Here is a photo taken during a repeat scan from the same postition. At this stage only a small piece of charcoaled timber remains of this large tree. After another fire there will likely be no evidence of a tree having been here in the first place.
+Here is a photo taken during a repeat scan from the same postition. At this stage only a small piece of charcoaled timber remains of this large tree. After another fire there will likely be no visible evidence of a tree having been there.
+
 ![Figure 5.](screenshots/Termite_mound2.jpg)
 
 Consecutive LiDAR scans can be useful for quantifying change over time in wooded systems. In this example we can record loss of large trees; other applications include quantification of tree growth or the impact of fire events on the understory.
 
+
 **3. Import Scan 26.**
-    * Select point cloud in top left panel
-    * Change colour to height ramp *(Edit -> Colours -> Height ramp)*
-    * Repeat for all point clouds
+   * Select point cloud in top left panel
+   * Change colour to height ramp *(Edit -> Colours -> Height ramp)*
+   * Repeat for all point clouds
 
 ![Figure 6.](screenshots/Overlap.png)
 
