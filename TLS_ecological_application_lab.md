@@ -1,6 +1,6 @@
 # Introduction to Remote Sensing of the Environment
 
-## Ecological application of TLS
+## Lab 11 - Working with Terrestrial Laser Scanning (TLS) data in CloudCompare - ecological application
 
 ### Prerequisites
 ---
@@ -66,25 +66,28 @@ Consecutive LiDAR scans can be useful for quantifying change over time in wooded
 For the remainder of this lab I recommend using a height ramp to display the point clouds.
 As these point clouds are not georeferenced, CloudCompare will overlap the files. As in Lab 10 we will move and rotate them to align.
 
+
 **4. Open the Translate and Rotate tool.**
-    * Select Scan 26
-    * Select Translate/ Rotate tool
-    * In the tool deselect Tz
-    * From the Rotation drop-down menu select Z
+   * Select Scan 26
+   * Select Translate/ Rotate tool
+   * In the tool deselect Tz
+   * From the Rotation drop-down menu select Z
 
 ![Figure 7.](screenshots/Rotate_tool.png)
 
 These settings will allow you to move the point cloud along the x/y-axes and rotate it along the z-axis.
 
+
 **5. Align point clouds.**
-    * Use your **secondady** mouse button to move and your **primary** mouse button to rotate
-    * Click the green tick in the Translate/ Rotate tool to save changes
-    * If necessary, change viewing angle and repeat process for further adjustment
+   * Use your **secondady** mouse button to move and your **primary** mouse button to rotate
+   * Click the green tick in the Translate/ Rotate tool to save changes
+   * If necessary, change viewing angle and repeat process for further adjustment
 
 ![Figure 8.](screenshots/Aligned.png)
 
 You can see the impact of trees swaying in breezy conditions and sight differences in scanning angles. When scanning wooded areas it's best to scan on a windstill day or time of day if possible. 
 Perfect alignment is difficult using my manually translating and rotating. Lets import our final point cloud so we can fix those imperfections.
+
 
 **6. Import and align Scan 27.**
   * Make sure you select the point cloud you want to move/ rotate in the top left panel
@@ -115,6 +118,8 @@ If CloudCompare displays the aligned point cloud in black, just apply the height
 Notice along the edges of the point cloud how points become more spars. This is partly due to the range of the scanner. In densely vegetated areas, however, occlusion is an important factor to consider. This is why multiple scan are necessary regardless of maximum range of the scanner employed.
 
 ![Figure 11.](screenshots/Edge.png)
+
+Congratulations, your data is now ready for further analysis.
 
 ### Thank you
 
