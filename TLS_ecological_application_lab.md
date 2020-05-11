@@ -129,8 +129,12 @@ You have just decreased point density to one point 10 cm<sup>-2</sup>. If you co
 
 ![Figure 14.](screenshots/Subsampled.png)
 
+How do you think does point density affect the computing power required to deal with the data?
+
 Would this data still be useful for measuring DBH?
-If DBH wans't your primary outcome but tree height - which point density would you choose?
+
+If DBH wasn't your primary outcome but tree height - which point density would you choose?
+
 
 
 ### Thank you
