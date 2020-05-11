@@ -110,9 +110,13 @@ If CloudCompare displays the aligned point cloud in black, just apply the height
 
 ![Figure 11.](screenshots/Registered.png)
 
-Notice along the edges of the point cloud how points become more spars. This is partly due to the range of the scanner. In densely vegetated areas, however, occlusion is an important factor to consider. This is why multiple scan are necessary regardless of maximum range of the scanner employed.
+Notice along the edges of the point cloud how points become more sparse and large patches are blank. This is due to both, scanner range and occlusion. You can see how in forested areas the distance between individual scans will be inlfuence by stem density, while in more open country scanner range will be the limiting facor.
+
+Along with range and occlusion I have also mentioned point density as variable to be considered. The data we are working with has been subsampled to 1 point m<sup>-2</sup>. So let's explore how subsampling will affect the quality of your point cloud.
 
 ![Figure 11.](screenshots/Edge.png)
+
+**9. Reduce point density**
 
 Congratulations, your data is now ready for further analysis.
 
