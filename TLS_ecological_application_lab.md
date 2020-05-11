@@ -112,13 +112,18 @@ If CloudCompare displays the aligned point cloud in black, just apply the height
 
 Notice along the edges of the point cloud how points become more sparse and large patches are blank. This is due to both, scanner range and occlusion. You can see how in forested areas the distance between individual scans will be inlfuence by stem density, while in more open country scanner range will be the limiting facor.
 
-Along with range and occlusion I have also mentioned point density as variable to be considered. The data we are working with has been subsampled to 1 point m<sup>-2</sup>. So let's explore how subsampling will affect the quality of your point cloud.
+![Figure 12.](screenshots/Edge.png)
 
-![Figure 11.](screenshots/Edge.png)
+Along with range and occlusion I have also mentioned point density as variable to be considered. The data we are working with has been subsampled to 1 point cm<sup>-2</sup>. So let's explore how further subsampling will affect the quality of your point cloud.
 
-**9. Reduce point density**
+**9. Reduce point density.**
+    * Select your favourite point cloud
+    * Open the subsampling tool *(Edit -> Subsample)*
+    * In min. space between points enter 0.1000
 
-Congratulations, your data is now ready for further analysis.
+![Figure 13.](screenshots/Subsampling.png)
+
+This will decrease point density to one point 10 cm<sup>-2</sup>.
 
 ### Thank you
 
