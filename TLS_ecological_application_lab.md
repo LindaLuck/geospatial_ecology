@@ -117,13 +117,21 @@ Notice along the edges of the point cloud how points become more sparse and larg
 Along with range and occlusion I have also mentioned point density as variable to be considered. The data we are working with has been subsampled to 1 point cm<sup>-2</sup>. So let's explore how further subsampling will affect the quality of your point cloud.
 
 **9. Reduce point density.**
-    * Select your favourite point cloud
-    * Open the subsampling tool *(Edit -> Subsample)*
-    * In min. space between points enter 0.1000
+   * Select your favourite point cloud
+   * Open the subsampling tool *(Edit -> Subsample)*
+   * In min. space between points enter 0.1000
+   * Click OK
+   * Inspect the result
 
 ![Figure 13.](screenshots/Subsampling.png)
 
-This will decrease point density to one point 10 cm<sup>-2</sup>.
+You have just decreased point density to one point 10 cm<sup>-2</sup>. If you compare the properties in the bottom left panel you will see that points have been reduced to a fraction of the original.
+
+![Figure 14.](screenshots/Subsampled.png)
+
+Would this data still be useful for measuring DBH?
+If DBH wans't your primary outcome but tree height - which point density would you choose?
+
 
 ### Thank you
 
