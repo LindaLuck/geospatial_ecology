@@ -126,9 +126,9 @@ You have just decreased point density to one point 10 cm<sup>-2</sup>. You can s
 
 ![Figure 14.](screenshots/Subsampled.png)
 
-How do you think does point density affect the computing power required to deal with the data?
+How do you think point density affects the computing power required to deal with the data?
 
-Would this data still be useful for measuring DBH?
+Would the new subsampled point cloud still be useful for measuring DBH?
 
 If DBH wasn't your primary outcome but tree height or stem density - which point density would you choose?
 
