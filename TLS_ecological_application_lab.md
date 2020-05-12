@@ -53,7 +53,7 @@ Here is a photo taken this year during a repeat scan from the same location. At 
 
 Consecutive LiDAR scans can be useful for quantifying change over time in wooded systems. In this example we can record loss of large trees and start forming ideas about environmental factors driving this loss that can then be investigated. Other applications include quantification of tree growth or the impact of fire events on the understory. Can you think of other ways in which this amazing data could be used?
 
-**3. Import Scan 26 and adjust display settings .**
+**3. Import Scan 26 and adjust display settings.**
    * Select point cloud in top left panel
    * Change colour to height ramp *(Edit -> Colours -> Height ramp)*
    * Adjust point size and shading to what works best for you (e.g. I prefer point size 1 and no shading)
