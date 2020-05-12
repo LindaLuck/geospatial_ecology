@@ -51,7 +51,7 @@ Here is a photo taken this year during a repeat scan from the same location. At 
 
 ![Figure 5.](screenshots/Termite_mound2.jpg)
 
-Consecutive LiDAR scans can be useful for quantifying change over time in wooded systems. In this example we can record loss of large trees and start forming ideas about environmental factors drivning this loss that can then be investigated. Other applications include quantification of tree growth or the impact of fire events on the understory.
+Consecutive LiDAR scans can be useful for quantifying change over time in wooded systems. In this example we can record loss of large trees and start forming ideas about environmental factors driving this loss that can then be investigated. Other applications include quantification of tree growth or the impact of fire events on the understory. Can you think of other ways this amazing data could be used?
 
 **3. Import Scan 26 and adjust display settings .**
    * Select point cloud in top left panel
