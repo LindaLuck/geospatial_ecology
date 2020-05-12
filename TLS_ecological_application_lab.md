@@ -70,7 +70,7 @@ CloudCompare imports the point clouds on top of each other because they are not 
 
 ![Figure 7.](screenshots/Rotate_tool.png)
 
-These settings will allow you to move the point cloud along the x/y-axes and rotate it along the z-axis.
+These settings will allow you to move the point cloud along the x/y-axes and rotate it along the z-axis. Feel free to play with the settings and see what else the tool can do - there's always the undo button.
 
 **5. Align point clouds.**
    * Use your **secondary** mouse button to *move* and your **primary** mouse button to *rotate*
@@ -79,7 +79,7 @@ These settings will allow you to move the point cloud along the x/y-axes and rot
 
 ![Figure 8.](screenshots/Aligned.png)
 
-It seems impossible to perfectly line up every last little branch. Trees will sway in the breeze and the scanner might not be set up perfectly horizontally. For the purpose of aligning the scans it’s easiest to focus on the stems. Alignment doesn’t have to be perfect – the ICP tool will finish the job for us. How does knowing the pitfalls of data processing affect your decision about when to scan (i.e. season/ time of day)?
+It seems impossible to perfectly line up every last little branch. Trees will sway in the breeze and the scanner might not be set up perfectly horizontally. For the purpose of aligning the scans it’s easiest to focus on the stems. Alignment doesn’t have to be perfect – the ICP tool will finish the job for us. How does knowing the pitfalls of data processing affect your decision about when to scan (e.g. season/ time of day)?
 
 **6. Import and align Scan 27.**
   * Make sure you select the point cloud you want to move/ rotate in the top left panel
@@ -98,7 +98,7 @@ Now that all three point clouds are in place we can correct minor offsets using 
 
 ![Figure 10.](screenshots/Registration.png)
 
-If CloudCompare displays the aligned point cloud in black, just apply the height ramp again. Inspect the alignment - notice how sharp the edges look now.
+If CloudCompare displays the aligned point cloud in black, just apply the height ramp again. Inspect the alignment - notice how sharp the edges look now. The 30% overlap is an estimate you need to make when registering point clouds. How do you think changing the distance between scan points would affect this setting?
 
 **8. Fine register second point cloud.**
   * Select Scan 26 and Scan 17
