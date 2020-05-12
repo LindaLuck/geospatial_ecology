@@ -33,7 +33,7 @@ Please see last week's lab here: [Lab 10](https://github.com/geospatialeco/GEARS
 
 ![Figure 2.](screenshots/Display_settings.png)
 
-Notice how RGB works better for low points. As tree foliage sways in the wind between acquisition of the RGB image and the point cloud we often get a beautiful sky blue assigned to our tree tops.
+Notice how RGB works better for low points. As tree foliage sways in the wind between acquisition of the RGB image and the point cloud we often get a beautiful sky blue assigned to our tree tops. This scanner is quipped with an RGB camera as it was designed to scan buildings. Knowing its limitations in the field, how could this feature be useful for environmental studies?
 
 **2. Explore Display settings.** 
   * Toggle the EDL filter *(Display -> Shaders & Filters -> EDL filter)*
