@@ -43,27 +43,26 @@ Notice how RGB works better for low points. As tree foliage sways in the wind be
 
 Working with LiDAR data, different settings will be useful for different purposes. During this prac you can adjust display settings to your personal preference.
 
-**Fun fact:** Next to the scan point in the centre you will see a termite mound built up on a tree trunk. After this scan was taken large areas of Litchfield NP were subject to bushfires during the 2019 dry season. 
+**Fun fact:** Next to the scan point in the centre you will see a termite mound built up on a tree trunk. After this scan was taken, extensive areas of Litchfield NP were subject to bushfires during the 2019 dry season. 
 
 ![Figure 4.](screenshots/Termite_mound.png)
 
-Here is a photo taken this year during a repeat scan from the same position. At this stage only a small piece of charcoaled timber remains of this large tree. After another fire there will likely be no visible evidence of a tree having been there.
+Here is a photo taken this year during a repeat scan from the same location. At this stage only a small piece of charcoaled timber remains of this large tree. Why was this tree consumed by the fire while the one next to it is still standing? Could the presence of a termite mound indicate extensive hollowing and therefore susceptibility to fire damage?
 
 ![Figure 5.](screenshots/Termite_mound2.jpg)
 
-Consecutive LiDAR scans can be useful for quantifying change over time in wooded systems. In this example we can record loss of large trees; other applications include quantification of tree growth or the impact of fire events on the understory.
+Consecutive LiDAR scans can be useful for quantifying change over time in wooded systems. In this example we can record loss of large trees and start forming ideas about environmental factors drivning this loss that can then be investigated. Other applications include quantification of tree growth or the impact of fire events on the understory.
 
-**3. Import Scan 26.**
+**3. Import Scan 26 and adjust display settings .**
    * Select point cloud in top left panel
    * Change colour to height ramp *(Edit -> Colours -> Height ramp)*
-   * Repeat for all point clouds
+   * Adjust point size and shading to what works best for you (e.g. I prefer point size 1 and no shading)
 
 ![Figure 6.](screenshots/Overlap.png)
 
-For the remainder of this lab I recommend using a height ramp to display the point clouds.
-As these point clouds are not georeferenced, CloudCompare will overlap the files. As in Lab 10 we will move and rotate them to align.
+CloudCompare imports the point clouds on top of each other because they are not georeferenced. This is because, unlike other scanners, the Leica BLK360 does not have an inbuilt positioning system. How would this affect your field protocol? 
 
-**4. Open the Translate and Rotate tool.**
+**4. Configure the Translate and Rotate tool.**
    * Select Scan 26
    * Select Translate/ Rotate tool
    * In the tool deselect Tz
@@ -74,14 +73,13 @@ As these point clouds are not georeferenced, CloudCompare will overlap the files
 These settings will allow you to move the point cloud along the x/y-axes and rotate it along the z-axis.
 
 **5. Align point clouds.**
-   * Use your **secondary** mouse button to move and your **primary** mouse button to rotate
+   * Use your **secondary** mouse button to *move* and your **primary** mouse button to *rotate*
    * Click the green tick in the Translate/ Rotate tool to save changes
-   * If necessary, change viewing angle and repeat process for further adjustment
+   * Change the viewing angle and repeat the process for further adjustment
 
 ![Figure 8.](screenshots/Aligned.png)
 
-You can see the impact of trees swaying in breezy conditions and sight differences in scanning angles. When scanning wooded areas, it's best to scan on a wind still day or time of day if possible. 
-Perfect alignment is difficult using my manually translating and rotating. Let’s import our final point cloud so we can fix those imperfections.
+It seems impossible to perfectly line up every last little branch. Trees will sway in the breeze and the scanner might not be set up perfectly horizontally. For the purpose of aligning the scans it’s easiest to focus on the stems. Alignment doesn’t have to be perfect – the ICP tool will finish the job for us. How does knowing the pitfalls of data processing affect your decision about when to scan (i.e. season/ time of day)?
 
 **6. Import and align Scan 27.**
   * Make sure you select the point cloud you want to move/ rotate in the top left panel
@@ -89,7 +87,7 @@ Perfect alignment is difficult using my manually translating and rotating. Let�
 
 ![Figure 9.](screenshots/Aligned2.png)
 
-Now that all three point clouds are in place we can correct minor offsets using the ICP tool. All three scans contain the tower and the shed. Scan 26 has the highest number of points for both those "landmarks", so we will be using it as reference.
+Now that all three point clouds are in place we can correct minor offsets using the ICP tool.
 
 **7. Fine register first point cloud.**
   * Select Scan 26 and Scan 27
@@ -105,15 +103,15 @@ If CloudCompare displays the aligned point cloud in black, just apply the height
 **8. Fine register second point cloud.**
   * Select Scan 26 and Scan 17
   * Repeat the process (make sure final overlap is at 30%)
-  * Inspect the result - I'm sure by now you'll appreciate the neat alignment, even our shed is now complete
+  * Inspect the result - I'm sure by now you'll appreciate the neat alignment
 
 ![Figure 11.](screenshots/Registered.png)
 
-Notice along the edges of the point cloud how points become more sparse and large patches are blank. This is due to both, scanner range and occlusion. You can see how in forested areas the distance between individual scans will be inlfuence by stem density, while in more open country scanner range will be the limiting facor.
+Notice along the edges of the point cloud how points become more sparse and large patches are blank. How much area a single scan will cover depends on both, the scanner range and occlusion effect of nearby objects (i.e. your equipment and properties of your study site). How do you think your sampling strategy would differ in this wooded area compared to an open grassland?
 
 ![Figure 12.](screenshots/Edge.png)
 
-Along with range and occlusion I have also mentioned point density as variable to be considered. The data we are working with has been subsampled to 1 point cm<sup>-2</sup>. So let's explore how further subsampling will affect the quality of your point cloud.
+Along with range and occlusion I have also mentioned point density as variable to be considered. The data we are working with has been subsampled to 1 point cm<sup>-2</sup>. As the entire plot is comprised of 25 scans I chose this point density as a compromise between computing power and data quality. So let's explore how further subsampling will affect the quality of your data and why point density is an important aspect to consider.
 
 **9. Reduce point density.**
    * Select your favourite point cloud
@@ -124,7 +122,7 @@ Along with range and occlusion I have also mentioned point density as variable t
 
 ![Figure 13.](screenshots/Subsampling.png)
 
-You have just decreased point density to one point 10 cm<sup>-2</sup>. If you compare the properties in the bottom left panel you will see that points have been reduced to a fraction of the original.
+You have just decreased point density to one point 10 cm<sup>-2</sup>. You can switch the individual layers on and off to visually inspect the effect of reducing point density. If you compare the properties in the bottom left panel you will see that points have been reduced to a fraction of the original. If you save the subsampled point cloud you will see that file size has also decreased significantly. If your GPU has struggled displaying the data thus far you might find it easier to navigate the subsampled point cloud.
 
 ![Figure 14.](screenshots/Subsampled.png)
 
@@ -132,7 +130,7 @@ How do you think does point density affect the computing power required to deal 
 
 Would this data still be useful for measuring DBH?
 
-If DBH wasn't your primary outcome but tree height - which point density would you choose?
+If DBH wasn't your primary outcome but tree height or stem density - which point density would you choose?
 
 
 
