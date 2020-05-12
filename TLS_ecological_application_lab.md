@@ -10,7 +10,7 @@ https://www.danielgm.net/cc/
 
 ---
 ### Background and objective
-The objective is to apply the skills obtained in Labs 9 and 10 in an ecological context. In the previous Labs we were looking at a likely familiar location - the Boab court at CDU Casuarina campus. In this lab we will look at scans form the Litchfield NP field site you have seen in the Introduction to LiDAR lecture. We will learn how to align and register multiple clouds and explore how point density affects data quality. Use this lab to consider how your study area and your research questoins would guide your sampling strategy.
+The objective is to apply the skills obtained in Labs 9 and 10 in an ecological context. In the previous Labs we were looking at a likely familiar location - the Boab court at CDU Casuarina campus. In this lab we will look at scans form the Litchfield NP field site you have seen in the Introduction to LiDAR lecture. We will learn how to align and register multiple clouds and explore how point density affects data quality. Now that we know the technology better, we will use this lab to consider how your study area and your research questoins would guide your sampling strategy.
 
 ![Figure 1.](screenshots/Litchie.jpg)
 
