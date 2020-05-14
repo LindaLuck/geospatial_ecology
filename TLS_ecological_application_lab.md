@@ -98,10 +98,12 @@ Now that all three point clouds are in place we can correct minor offsets using 
   * Make sure Scan 26 is assigned as reference - click swap if necessary
   * Change final overlap to 30%
   * Click ok
+  * Reset colour ramp if necessary
+  * Inspect the alignment - notice how sharp the edges look now
 
 ![Figure 10.](screenshots/Registration.png)
 
-If CloudCompare displays the aligned point cloud in black, just apply the height ramp again. Inspect the alignment - notice how sharp the edges look now. The 30% overlap is an estimate you need to make when registering point clouds. How do you think changing the distance between scan points would affect this setting?
+The 30% overlap is an estimate you need to make when registering point clouds. How do you think changing the distance between scan points would affect this setting?
 
 **8. Fine register second point cloud.**
   * Select Scan 26 and Scan 17
@@ -110,7 +112,7 @@ If CloudCompare displays the aligned point cloud in black, just apply the height
 
 ![Figure 11.](screenshots/Registered.png)
 
-Notice along the edges of the point cloud how points become more sparse and large patches are blank. How much area a single scan will cover depends on both, the scanner range and occlusion effect of nearby objects (i.e. your equipment and properties of your study site). How do you think your sampling strategy would differ in this wooded area compared to an open grassland?
+Notice along the edges of the point cloud how points become more sparse and large patches are blank. How much area a single scan will cover depends not only on the scanner range, but also occlusion effect of nearby objects. To account for occlusion, scans in this plot have been placed at a 25 m distance. How do you think your sampling strategy would differ in an open grassland compared to this savanna woodland?
 
 ![Figure 12.](screenshots/Edge.png)
 
