@@ -1,3 +1,6 @@
+![GEARS Lab](Logo_s.png)
+GEARS - Geospatial Ecology and Remote Sensing lab - https://www.gears-lab.com
+
 # Introduction to Remote Sensing of the Environment
 
 ## Lab 11 - Working with Terrestrial Laser Scanning (TLS) data in CloudCompare - ecological application
