@@ -24,11 +24,11 @@ Scan data can be downloaded in .las format here (file size ~ 260 MB):
 ---
 ## Getting to know CloudCompare
 
-Please see part 1 of this lab here: [Lab 9](https://github.com/geospatialeco/GEARS/blob/master/Intro_RS_Lab9.md)
+Please see Part 1 of this lab here: [Lab 9](https://github.com/geospatialeco/GEARS/blob/master/Intro_RS_Lab9.md)
 
 ## Merging multiple point clouds
 
-Please see part 2 of this lab here: [Lab 10](https://github.com/geospatialeco/GEARS/blob/master/Intro_RS_Lab10.md)
+Please see Part 2 of this lab here: [Lab 10](https://github.com/geospatialeco/GEARS/blob/master/Intro_RS_Lab10.md)
 
 ## Ecological application
 **1. Import Scan 17.**
