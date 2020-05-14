@@ -19,7 +19,7 @@ The objective is to apply the skills obtained in Labs 9 and 10 in an ecological 
 
 Scan data can be downloaded in .las format here (file size ~ 260 MB):
 
-[Scan 17] (https://charlesdarwinuni-my.sharepoint.com/:u:/g/personal/andrew_edwards_cdu_edu_au/EQfjZZ7CYU1JpqLzQgWIfooBTTOj6_cipHFUVEyhEhmXWQ?e=9IAXIP) | [Scan 26] (https://charlesdarwinuni-my.sharepoint.com/:u:/g/personal/andrew_edwards_cdu_edu_au/EZPOSGUUv-xDg5lX5vKdodIBfVSbyztcNzAclHOWDnf_og?e=JA7hkC) | [Scan 27] (https://charlesdarwinuni-my.sharepoint.com/:u:/g/personal/andrew_edwards_cdu_edu_au/EYMTyzZ9Lg1LsuzaZJ_VOe0BcAd_tDZzqMAiZGmSOJiSyA?e=BaPITk)
+[Scan 17](https://charlesdarwinuni-my.sharepoint.com/:u:/g/personal/andrew_edwards_cdu_edu_au/EQfjZZ7CYU1JpqLzQgWIfooBTTOj6_cipHFUVEyhEhmXWQ?e=9IAXIP) | [Scan 26](https://charlesdarwinuni-my.sharepoint.com/:u:/g/personal/andrew_edwards_cdu_edu_au/EZPOSGUUv-xDg5lX5vKdodIBfVSbyztcNzAclHOWDnf_og?e=JA7hkC) | [Scan 27](https://charlesdarwinuni-my.sharepoint.com/:u:/g/personal/andrew_edwards_cdu_edu_au/EYMTyzZ9Lg1LsuzaZJ_VOe0BcAd_tDZzqMAiZGmSOJiSyA?e=BaPITk)
 
 ---
 ## Getting to know CloudCompare
